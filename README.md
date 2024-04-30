@@ -10,7 +10,7 @@ After manifests have been committed and pushed, run the following:
 
 ```pwsh
 scoop bucket add arc https://github.com/tree-s/arc
-scoop install arc/arc
+scoop install <manifest>
 ```
 
 ## How do I contribute new manifests?
