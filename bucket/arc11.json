@@ -1,12 +1,12 @@
 {
-    "version": "",
+    "version": "v0.0.0",
     "description": "The Arc browser for windows 11",
     "homepage": "https://arc.net/",
     "license": "https://en.wikipedia.org/wiki/Proprietary_software",
     "architecture": {
         "64bit": {
             "url": "https://releases.arc.net/windows/ArcInstaller.exe",
-            "hash": ""
+            "hash": "12345"
         }
     },
     "installer": {
