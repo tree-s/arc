@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://releases.arc.net/windows/ArcInstaller.exe",
-            "hash": "12345"
+            "hash": "ec10e7c36e92c503a6c6bae6657fe6f44b2334ce576aa4396858454b2239f366"
         }
     },
     "installer": {
