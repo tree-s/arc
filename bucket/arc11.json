@@ -16,8 +16,8 @@
         "script": "Start-Process -FilePath \"$dir\\ArcInstaller.exe\" -ArgumentList \"/S\" -Wait"
     },
     "checkver": {
-        "url": "https://resources.arc.net/hc/en-us/articles/22513842649623-Arc-for-Windows-2023-2024-Release-Notes",
-        "regex": "v([\\d\\.]+)"
+        "url": "https://en.wikipedia.org/wiki/Arc_(web_browser)",
+        "regex": "Microsoft Windows</th><td class=\"infobox-data\"> ([\\d\\.]+)"
     },
     "autoupdate": {
         "architecture": {
