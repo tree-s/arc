@@ -17,7 +17,7 @@
     },
     "checkver": {
         "url": "https://en.wikipedia.org/wiki/Arc_(web_browser)",
-        "regex": "Microsoft Windows</th><td class=\"infobox-data\"> ([\\d\\.]+)"
+        "regex": "Microsoft Windows</th><td class=\"infobox-data\">([\\d\\.]+)"
     },
     "autoupdate": {
         "architecture": {
