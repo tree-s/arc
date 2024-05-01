@@ -1,0 +1,32 @@
+{
+    "version": "",
+    "description": "The Arc browser for windows 11",
+    "homepage": "https://arc.net/",
+    "license": "https://en.wikipedia.org/wiki/Proprietary_software",
+    "architecture": {
+        "64bit": {
+            "url": "https://releases.arc.net/windows/ArcInstaller.exe",
+            "hash": ""
+        }
+    },
+    "installer": {
+        "script": "Start-Process -FilePath \"$dir\\ArcInstaller.exe\" -ArgumentList \"/S /D=$dir\" -Wait"
+    },
+    "uninstaller": {
+        "script": "Start-Process -FilePath \"$dir\\ArcInstaller.exe\" -ArgumentList \"/S\" -Wait"
+    },
+    "checkver": {
+        "url": "https://resources.arc.net/hc/en-us/articles/22513842649623-Arc-for-Windows-2023-2024-Release-Notes",
+        "regex": "v([\\d\\.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://releases.arc.net/windows/ArcInstaller.exe"
+            }
+        },
+        "hash": {
+            "mode": "download"
+        }
+    }
+}
