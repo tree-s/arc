@@ -10,10 +10,10 @@
         }
     },
     "installer": {
-        "script": "Expand-7zipArchive \"$dir\\Arc.x64.msix\" \"$dir\" -ExtractDir \"$dir\""
-    },
-    "uninstaller": {
-        "script": "Start-Process -FilePath \"$dir\\ArcInstaller.exe\" -ArgumentList \"/S\" -Wait"
+        "script": [
+            "Expand-7zipArchive \"$dir\\Arc.x64.msix\"",
+            "Remove-Item \"$dir\\Arc.x64.msix\"-Force"
+        ]
     },
     "checkver": {
         "url": "https://releases.arc.net/windows/prod/Arc.appinstaller",
