@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://releases.arc.net/windows/prod/Arc.appinstaller"
+                "url": "https://releases.arc.net/windows/prod/$version/Arc.x64.msix"
             }
         },
         "hash": {
