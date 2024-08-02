@@ -24,14 +24,14 @@
     ],
     "checkver": {
         "url": "https://releases.arc.net/windows/prod/Arc.appinstaller",
-        "regex": "(?s)Version=\"([\\d.]+)\".*?Version=\"([\\d.]+)\""
+        "regex": "(?s)Version=\"([\\d.]+)\".*?Version=\"([\\d.]+)\".*?Version=\"([\\d.]+)\""
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": [
                     "https://releases.arc.net/windows/prod/$match1/Arc.x64.msix#/dl-arc.7z",
-                    "https://releases.arc.net/windows/dependencies/x64/Microsoft.VCLibs.x64.14.00.Desktop.$match2.appx#/dl-dep1.7z"
+                    "https://releases.arc.net/windows/dependencies/x64/Microsoft.VCLibs.x64.14.00.Desktop.$match3.appx#/dl-dep1.7z"
                 ]
             }
         },
