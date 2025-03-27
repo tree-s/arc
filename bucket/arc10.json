@@ -1,5 +1,5 @@
 {
-    "version": "1.46.0.19807",
+    "version": "1.46.1.21656",
     "description": "The Arc browser for windows 10/11",
     "homepage": "https://arc.net/",
     "license": "https://en.wikipedia.org/wiki/Proprietary_software",
@@ -7,11 +7,11 @@
         "64bit": {
             "url": [
                 "https://releases.arc.net/windows/dependencies/x64/Microsoft.VCLibs.x64.14.00.Desktop.14.0.33728.0.appx#/dl-dep1.7z",
-                "https://releases.arc.net/windows/prod/1.46.0.19807/Arc.x64.msix#/dl-arc.7z"
+                "https://releases.arc.net/windows/prod/1.46.1.21656/Arc.x64.msix#/dl-arc.7z"
             ],
             "hash": [
                 "077a3d1a5d0622bd3004dca85f5e192d6e98ec79b83d4aa06766759ea6c09c3d",
-                "56f11cf0f2e996a8e966d2a24a242eb13c86f68f8152cbbfcb7f7dbee7b10556"
+                "88ec40934f19816c6b4ba79583f61e7d1497cb49dbda20f0729fd875a721de3c"
             ]
         }
     },
